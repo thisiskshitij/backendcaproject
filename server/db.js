@@ -2,11 +2,11 @@ const Pool = require('pg').Pool
 require('dotenv').config()
 
 const pool = new Pool({
-  user: 'postgres',
-  password: '123',
-  host: 'localhost',
+  user: 'todo_1uns_user',
+  password: 'X9SpfszYoo19qIxisZTP5djecn6N78UH',
+  host: 'dpg-colbus8l5elc73fcnamg-a',
   port: 5432,
-  database: 'todoapp'
+  database: 'todo_1uns'
 })
 
 module.exports = pool
